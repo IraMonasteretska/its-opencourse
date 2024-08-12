@@ -1,0 +1,139 @@
+@media(min-width:1600.8px) {
+    .opencourse {
+        .container {
+            max-width: 1384px;
+        }
+    }
+}
+
+.opencourse {
+    font-family: "Poppins", sans-serif;
+}
+
+.opencourse * {
+    line-height: 150%;
+}
+
+.ocbtn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #fff;
+    min-height: 64px;
+    padding: 3px 43px;
+    background: linear-gradient(90deg, #9a7b53 0%, #d8bc99 43.96%, #ac916b 66.65%, #debf98 100%);
+    background-size: 640px;
+    transition: 0.3s;
+    background-position: -125px 0;
+
+    &:hover {
+        background-position: -25px 0;
+        color: #fff;
+    }
+}
+
+// .cogbtn {
+
+
+.cogbtn {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: center;
+    background: -webkit-gradient(linear,
+            left top,
+            right top,
+            from(#9a7b53),
+            color-stop(43.96%, #d8bc99),
+            color-stop(66.65%, #ac916b),
+            to(#debf98));
+    background: linear-gradient(90deg, #9a7b53 0%, #d8bc99 43.96%, #ac916b 66.65%, #debf98 100%);
+    background-size: 640px;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    min-height: 64px;
+    padding: 3px 20px 3px 24px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 150%;
+    background-position: -125px 0;
+    width: 326px;
+    position: relative;
+    padding-right: 80px;
+    text-align: left;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    text-decoration: none;
+}
+
+.cogbtn:hover {
+    background-position: -25px 0;
+    color: #fff;
+}
+
+.cogbtn:hover .btnfigures .btnfigures__line {
+    -webkit-transform: translateX(6px);
+    transform: translateX(6px);
+}
+
+.cogbtn .btnfigures {
+    width: 58px;
+    height: 32px;
+    margin-left: 50px;
+    position: relative;
+}
+
+.cogbtn .btnfigures svg {
+    position: absolute;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.cogbtn .btnfigures .btnfigures__line {
+    left: 0;
+}
+
+.cogbtn .btnfigures .btnfigures__circle {
+    right: 0;
+}
+
+.cogbtn .btnfigures {
+    position: absolute;
+    right: 20px;
+}
+
+.ocsecttitle {
+    font-size: 50px;
+    line-height: 130%;
+    font-weight: 700;
+    background: var(--Gold, linear-gradient(90deg, #8F7047 -7%, #DABD9A 50.07%, #A58A63 105%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 60px;
+    text-transform: uppercase;
+}

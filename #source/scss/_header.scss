@@ -1,0 +1,56 @@
+
+.opencourse__header {
+    display: flex;
+    align-items: center;
+    height: 120px;
+    background: rgba(#000, 0.5);
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 12;
+    transition: 0.3s;
+
+    &.scroll {
+        background: rgba(#000, 0.95);
+    }
+}
+
+.oclogo {
+    img {
+        max-height: 90px;
+    }
+}
+
+.ocdate {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #A58A63;
+    max-width: 436px;
+    min-height: 60px;
+    width: 100%;
+
+
+    span {
+        position: relative;
+        color: #fff;
+        font-size: 20px;
+        font-weight: 700;
+        padding-left: 15px;
+        opacity: 0.6;
+
+        &::before {
+            content: '';
+            display: inline-block;
+            width: 7px;
+            height: 7px;
+            border-radius: 50%;
+            background: #d2b593;
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+    }
+}
