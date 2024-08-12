@@ -1,6 +1,8 @@
 .ocherosect {
-    min-height: 100vh;
+    height: 100vh;
     padding: 170px 0 40px;
+    overflow: hidden;
+    position: relative;
 
     &::after {
         content: '';
